@@ -8,8 +8,8 @@ from winotify import Notification, audio
 
 # Setting up file in a virtual environment - activate file: 
 # * .venv\Scripts\activate.bat
-
-max = 15
+minutes = 20
+max = minutes*60
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 face_detection = mp.solutions.face_detection.FaceDetection()
 
